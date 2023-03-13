@@ -1,0 +1,15 @@
+drivers/usb/host/xhci.c:266:21:xhci_microframes_to_exponent	0	static
+drivers/usb/host/xhci.c:1480:12:xhci_get_max_xfer_size	0	static
+drivers/usb/host/xhci.c:149:1:handshake	48	static
+drivers/usb/host/xhci.c:197:12:xhci_reset	32	static
+drivers/usb/host/xhci.c:1392:12:xhci_submit_bulk_msg	16	static
+drivers/usb/host/xhci.c:1399:12:xhci_submit_int_msg	16	static
+drivers/usb/host/xhci.c:249:21:xhci_get_ep_index.isra	0	static
+drivers/usb/host/xhci.c:122:19:xhci_get_ctrl	32	static
+drivers/usb/host/xhci.c:452:12:xhci_configure_endpoints	48	static
+drivers/usb/host/xhci.c:1414:12:xhci_update_hub_device	64	static
+drivers/usb/host/xhci.c:1408:12:xhci_alloc_device	48	static
+drivers/usb/host/xhci.c:1359:12:xhci_submit_control_msg	176	static
+drivers/usb/host/xhci.c:771:5:xhci_check_maxpacket	48	static
+drivers/usb/host/xhci.c:1494:5:xhci_register	48	static
+drivers/usb/host/xhci.c:1531:5:xhci_deregister	32	static

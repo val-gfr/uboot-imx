@@ -1,0 +1,8 @@
+drivers/cpu/cpu-uclass.c:123:12:uclass_cpu_init	48	static
+drivers/cpu/cpu-uclass.c:18:5:cpu_probe_all	48	static
+drivers/cpu/cpu-uclass.c:41:5:cpu_is_current	16	static
+drivers/cpu/cpu-uclass.c:53:17:cpu_get_current_dev	32	static
+drivers/cpu/cpu-uclass.c:74:5:cpu_get_desc	0	static
+drivers/cpu/cpu-uclass.c:84:5:cpu_get_info	48	static
+drivers/cpu/cpu-uclass.c:97:5:cpu_get_count	0	static
+drivers/cpu/cpu-uclass.c:107:5:cpu_get_vendor	0	static

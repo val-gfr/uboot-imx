@@ -1,0 +1,6 @@
+drivers/net/pfe_eth/pfe_cmd.c:261:14:bmu	32	static
+drivers/net/pfe_eth/pfe_cmd.c:246:13:gpi	32	static
+drivers/net/pfe_eth/pfe_cmd.c:175:5:qm_read_drop_stat	0	static
+drivers/net/pfe_eth/pfe_cmd.c:212:16:tmu_queues.constprop	80	static
+drivers/net/pfe_eth/pfe_cmd.c:421:6:pfe_command_stop	64	static
+drivers/net/pfe_eth/pfe_cmd.c:469:12:pfe_command	144	static

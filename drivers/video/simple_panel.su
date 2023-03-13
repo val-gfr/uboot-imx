@@ -1,0 +1,4 @@
+drivers/video/simple_panel.c:38:12:simple_panel_set_backlight	32	static
+drivers/video/simple_panel.c:21:12:simple_panel_enable_backlight	32	static
+drivers/video/simple_panel.c:55:12:simple_panel_of_to_plat	32	static
+drivers/video/simple_panel.c:89:12:simple_panel_probe	16	static

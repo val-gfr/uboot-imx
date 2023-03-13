@@ -1,0 +1,44 @@
+CONFIG_SYS_FSL_ESDHC_ADDR=0
+CONFIG_SERIAL_LPUART_BASE=0x5a060000
+CONFIG_SYS_FSL_MAX_NUM_OF_SEC=y
+CONFIG_SYS_CBSIZE=2048
+CONFIG_SYS_SPL_MALLOC_SIZE=0x80000
+CONFIG_SYS_MONITOR_LEN="(1024 * 1024)"
+CONFIG_SYS_FSL_SEC_ADDR="(0x31400000)"
+CONFIG_SPL_BUILD=y
+CONFIG_SYS_BARGSIZE=$(CONFIG_SYS_CBSIZE)
+CONFIG_MXC_USB_PORTSC="(PORT_PTS_UTMI | PORT_PTS_PTW)"
+CONFIG_SYS_MAXARGS=64
+CONFIG_EXTRA_ENV_SETTINGS="CONFIG_MFG_ENV_SETTINGS M4_BOOT_ENV XEN_BOOT_ENV JAILHOUSE_ENV AHAB_ENV "script=boot.scr0image=Image0splashimage=0x9e0000000console=ttyLP00fdt_addr=0x830000000fdt_high=0xffffffffffffffff0cntr_addr=0x980000000cntr_file=os_cntr_signed.bin0boot_fdt=try0fdt_file=undefined0mmcdev=__stringify(CONFIG_SYS_MMC_ENV_DEV)"0mmcpart=10mmcroot=" CONFIG_MMCROOT " rootwait rw0mmcautodetect=yes0mmcargs=setenv bootargs console=${console},${baudrate} earlycon root=${mmcroot}0 loadbootscript=fatload mmc ${mmcdev}:${mmcpart} ${loadaddr} ${script};0bootscript=echo Running bootscript from mmc ...; source0loadimage=fatload mmc ${mmcdev}:${mmcpart} ${loadaddr} ${image}0loadfdt=fatload mmc ${mmcdev}:${mmcpart} ${fdt_addr} ${fdt_file}0loadcntr=fatload mmc ${mmcdev}:${mmcpart} ${cntr_addr} ${cntr_file}0auth_os=auth_cntr ${cntr_addr}0boot_os=booti ${loadaddr} - ${fdt_addr};0mmcboot=echo Booting from mmc ...; run mmcargs; if test ${sec_boot} = yes; then if run auth_os; then run boot_os; else echo ERR: failed to authenticate; fi; else if test ${boot_fdt} = yes || test ${boot_fdt} = try; then if run loadfdt; then run boot_os; else echo WARN: Cannot load the DT; fi; else echo wait for boot; fi;fi;0netargs=setenv bootargs console=${console},${baudrate} earlycon root=/dev/nfs ip=dhcp nfsroot=${serverip}:${nfsroot},v3,tcp0netboot=echo Booting from net ...; run netargs;  if test ${ip_dyn} = yes; then setenv get_cmd dhcp; else setenv get_cmd tftp; fi; if test ${sec_boot} = yes; then ${get_cmd} ${cntr_addr} ${cntr_file}; if run auth_os; then run boot_os; else echo ERR: failed to authenticate; fi; else ${get_cmd} ${loadaddr} ${image}; if test ${boot_fdt} = yes || test ${boot_fdt} = try; then if ${get_cmd} ${fdt_addr} ${fdt_file}; then run boot_os; else echo WARN: Cannot load the DT; fi; else booti; fi;fi;0"
+CONFIG_FEC_XCV_TYPE="RGMII"
+CONFIG_SPL_STACK=0x013fff0
+CONFIG_SPL_ABORT_ON_RAW_IMAGE=y
+CONFIG_MFG_ENV_SETTINGS="CONFIG_MFG_ENV_SETTINGS_DEFAULT "initrd_addr=0x831000000initrd_high=0xffffffffffffffff0emmc_dev=00sd_dev=10""
+CONFIG_SPL_RAW_IMAGE_ARM_TRUSTED_FIRMWARE=y
+CONFIG_ETHPRIME="eth0"
+CONFIG_FEC_ENET_DEV=0
+CONFIG_FEC_MXC_PHYADDR=0x0
+CONFIG_SYS_BAUDRATE_TABLE="{ 9600, 19200, 38400, 57600, 115200 }"
+CONFIG_PCI_SCAN_SHOW=y
+CONFIG_SYS_SDRAM_BASE=0x80000000
+CONFIG_SYS_FSL_USDHC_NUM=2
+CONFIG_USB_ETHER_ASIX=y
+CONFIG_SPL_BSS_MAX_SIZE=0x1000
+CONFIG_SPL_BSS_START_ADDR=0x00130000
+CONFIG_SPL_PAD_TO=$(CONFIG_SPL_MAX_SIZE)
+CONFIG_SYS_INIT_SP_ADDR=0x80200000
+CONFIG_PCIE_IMX=y
+CONFIG_SYS_SPL_MALLOC_START=0x82200000
+CONFIG_SYS_BOOT_RAMDISK_HIGH=y
+CONFIG_SYS_UBOOT_BASE=0x08181000
+CONFIG_CMD_PCI=y
+CONFIG_USB_HOST_ETHER=y
+CONFIG_USB_MAX_CONTROLLER_COUNT=2
+CONFIG_CMD_READ=y
+CONFIG_SPL_MAX_SIZE="(192 * 1024)"
+CONFIG_SYS_PBSIZE="(CONFIG_SYS_CBSIZE + sizeof(CONFIG_SYS_PROMPT) + 16)"
+CONFIG_MMCROOT="/dev/mmcblk1p2"
+CONFIG_SERIAL_TAG=y
+CONFIG_MFG_ENV_SETTINGS_DEFAULT=""mfgtool_args=setenv bootargs console=${console},${baudrate} rdinit=/linuxrc clk_ignore_unused 0kboot="MFG_BOOT_CMD"0bootcmd_mfg=run mfgtool_args;if iminfo ${initrd_addr}; then if test ${tee} = yes; then bootm ${tee_addr} ${initrd_addr} ${fdt_addr}; else " MFG_BOOT_CMD "${loadaddr} ${initrd_addr} ${fdt_addr}; fi; else " FASTBOOT_CMD "fi;0" MFG_NAND_FIT_PARTITION"
+CONFIG_BOARDDIR="board/freescale/imx8qxp_mek"
+CONFIG_MALLOC_F_ADDR=0x00138000

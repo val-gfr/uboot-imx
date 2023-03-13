@@ -1,0 +1,1 @@
+cmd_board/freescale/common/built-in.o :=  rm -f board/freescale/common/built-in.o; aarch64-linux-gnu-ar cDPrsT board/freescale/common/built-in.o board/freescale/common/mmc.o board/freescale/common/tcpc.o

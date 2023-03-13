@@ -1,0 +1,11 @@
+drivers/power/domain/imx8-power-domain-legacy.c:87:12:imx8_power_domain_request	0	static
+drivers/power/domain/imx8-power-domain-legacy.c:292:12:imx8_power_domain_of_xlate	0	static
+drivers/power/domain/imx8-power-domain-legacy.c:333:12:imx8_power_domain_probe	16	static
+drivers/power/domain/imx8-power-domain-legacy.c:101:12:imx8_power_domain_on	80	static
+drivers/power/domain/imx8-power-domain-legacy.c:348:12:imx8_power_domain_of_to_plat	32	static
+drivers/power/domain/imx8-power-domain-legacy.c:302:12:imx8_power_domain_bind	64	static
+drivers/power/domain/imx8-power-domain-legacy.c:203:12:imx8_power_domain_off_parentnodes.isra	64	static
+drivers/power/domain/imx8-power-domain-legacy.c:267:12:imx8_power_domain_off	80	static
+drivers/power/domain/imx8-power-domain-legacy.c:94:12:imx8_power_domain_free	0	static
+drivers/power/domain/imx8-power-domain-legacy.c:39:6:imx8_power_off_pd_devices	80	static
+drivers/power/domain/imx8-power-domain-legacy.c:59:5:imx8_power_domain_lookup_name	64	static

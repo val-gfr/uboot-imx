@@ -1,0 +1,17 @@
+drivers/video/video_link.c:40:8:ofnode_get_child_by_name	48	static
+drivers/video/video_link.c:59:8:ofnode_graph_get_next_endpoint	32	static
+drivers/video/video_link.c:125:5:ofnode_graph_get_endpoint_count	32	static
+drivers/video/video_link.c:136:5:ofnode_graph_parse_endpoint	48	static
+drivers/video/video_link.c:154:8:ofnode_graph_get_endpoint_by_regs	64	static
+drivers/video/video_link.c:173:8:ofnode_graph_get_remote_endpoint	32	static
+drivers/video/video_link.c:194:8:ofnode_graph_get_port_parent	48	static
+drivers/video/video_link.c:216:8:ofnode_graph_get_remote_port_parent	16	static
+drivers/video/video_link.c:228:5:find_device_by_ofnode	32	static
+drivers/video/video_link.c:284:13:video_link_add_node	96	static
+drivers/video/video_link.c:325:17:video_link_get_next_device	48	static
+drivers/video/video_link.c:357:17:video_link_get_video_device	48	static
+drivers/video/video_link.c:424:13:list_videolink	80	static
+drivers/video/video_link.c:459:12:do_videolink	16	static
+drivers/video/video_link.c:378:5:video_link_get_display_timings	80	static
+drivers/video/video_link.c:479:5:video_link_init	48	static
+drivers/video/video_link.c:515:5:video_link_shut_down	16	static

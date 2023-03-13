@@ -1,0 +1,1 @@
+cmd_spl/drivers/crypto/fsl/built-in.o :=  rm -f spl/drivers/crypto/fsl/built-in.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/crypto/fsl/built-in.o spl/drivers/crypto/fsl/sec.o spl/drivers/crypto/fsl/jr.o spl/drivers/crypto/fsl/fsl_hash.o spl/drivers/crypto/fsl/jobdesc.o spl/drivers/crypto/fsl/error.o spl/drivers/crypto/fsl/fsl_blob.o

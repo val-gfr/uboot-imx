@@ -1,0 +1,14 @@
+drivers/net/netconsole.c:36:13:nc_wait_arp_handler	0	static
+drivers/net/netconsole.c:43:13:nc_handler	0	static
+drivers/net/netconsole.c:50:13:nc_timeout_handler	0	static
+drivers/net/netconsole.c:55:12:is_broadcast	48	static
+drivers/net/netconsole.c:278:12:nc_stdio_getc	48	static
+drivers/net/netconsole.c:173:13:nc_send_packet	64	static
+drivers/net/netconsole.c:248:13:nc_stdio_putc	48	static
+drivers/net/netconsole.c:76:12:refresh_settings_from_env	32	static
+drivers/net/netconsole.c:228:12:nc_stdio_start	32	static
+drivers/net/netconsole.c:299:12:nc_stdio_tstc	32	static
+drivers/net/netconsole.c:259:13:nc_stdio_puts	64	static
+drivers/net/netconsole.c:117:6:nc_start	48	static
+drivers/net/netconsole.c:136:5:nc_input_packet	64	static
+drivers/net/netconsole.c:327:5:drv_nc_init	128	static

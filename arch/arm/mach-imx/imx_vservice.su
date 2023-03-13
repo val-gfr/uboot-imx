@@ -1,0 +1,5 @@
+arch/arm/mach-imx/imx_vservice.c:21:15:board_imx_vservice_get_buffer	0	static
+arch/arm/mach-imx/imx_vservice.c:29:8:imx_vservice_get_buffer	0	static
+arch/arm/mach-imx/imx_vservice.c:34:5:imx_vservice_blocking_request	64	static
+arch/arm/mach-imx/imx_vservice.c:91:25:board_imx_vservice_find_mu	112	static
+arch/arm/mach-imx/imx_vservice.c:119:31:imx_vservice_setup	96	static

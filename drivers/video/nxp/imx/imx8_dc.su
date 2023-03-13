@@ -1,0 +1,3 @@
+drivers/video/nxp/imx/imx8_dc.c:392:12:imx8_dc_remove	16	static
+drivers/video/nxp/imx/imx8_dc.c:382:12:imx8_dc_bind	16	static
+drivers/video/nxp/imx/imx8_dc.c:313:12:imx8_dc_probe	368	static

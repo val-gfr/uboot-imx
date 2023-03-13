@@ -1,0 +1,2 @@
+drivers/usb/imx/usb-mx6-common.c:77:5:usb_phy_mode	0	static
+drivers/usb/imx/usb-mx6-common.c:324:6:ehci_mx6_phy_init	48	static

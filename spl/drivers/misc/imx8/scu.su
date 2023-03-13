@@ -1,0 +1,6 @@
+drivers/misc/imx8/scu.c:209:12:imx8_scu_remove	0	static
+drivers/misc/imx8/scu.c:71:12:mu_hal_receivemsg	64	static
+drivers/misc/imx8/scu.c:184:12:imx8_scu_probe	32	static
+drivers/misc/imx8/scu.c:51:12:mu_hal_sendmsg	64	static
+drivers/misc/imx8/scu.c:159:12:imx8_scu_call	80	static
+drivers/misc/imx8/scu.c:214:12:imx8_scu_bind	0	static

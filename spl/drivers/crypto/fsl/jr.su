@@ -1,0 +1,11 @@
+drivers/crypto/fsl/jr.c:240:12:jr_dequeue	80	static
+drivers/crypto/fsl/jr.c:1006:12:caam_jr_bind	0	static
+drivers/crypto/fsl/jr.c:322:13:desc_done	32	static
+drivers/crypto/fsl/jr.c:163:12:jr_enqueue.constprop	80	static
+drivers/crypto/fsl/jr.c:378:5:run_descriptor_jr	48	static
+drivers/crypto/fsl/jr.c:954:12:caam_jr_ioctl	0	static
+drivers/crypto/fsl/jr.c:443:5:jr_reset	32	static
+drivers/crypto/fsl/jr.c:448:5:sec_reset	16	static
+drivers/crypto/fsl/jr.c:794:5:sec_init_idx	160	static
+drivers/crypto/fsl/jr.c:931:5:sec_init	0	static
+drivers/crypto/fsl/jr.c:962:12:caam_jr_probe	224	static

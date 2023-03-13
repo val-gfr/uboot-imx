@@ -1,0 +1,7 @@
+arch/arm/mach-imx/imx8/fdt.c:93:12:fdt_edma_update_int_array	0	static
+arch/arm/mach-imx/imx8/fdt.c:85:13:fdt_edma_swap_int_array	0	static
+arch/arm/mach-imx/imx8/fdt.c:35:12:disable_fdt_node	48	static
+arch/arm/mach-imx/imx8/fdt.c:453:12:config_smmu_resource_sid	64	static
+arch/arm/mach-imx/imx8/fdt.c:471:12:config_smmu_fdt_device_sid	160	static
+arch/arm/mach-imx/imx8/fdt.c:158:28:update_fdt_edma_nodes	2352	static
+arch/arm/mach-imx/imx8/fdt.c:578:5:ft_system_setup	192	static

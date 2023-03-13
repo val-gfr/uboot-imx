@@ -1,0 +1,2 @@
+arch/arm/mach-imx/imx8/misc.c:19:5:sc_pm_setup_uart	48	static
+arch/arm/mach-imx/imx8/misc.c:70:6:build_info	128	static

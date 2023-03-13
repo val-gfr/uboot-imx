@@ -1,0 +1,16 @@
+drivers/pci/pcie_imx.c:541:13:imx_pcie_atu_outbound_set	0	static
+drivers/pci/pcie_imx.c:582:22:get_bus_address	16	static
+drivers/pci/pcie_imx.c:277:12:pcie_phy_poll_ack	48	static
+drivers/pci/pcie_imx.c:297:12:pcie_phy_wait_ack	32	static
+drivers/pci/pcie_imx.c:1603:12:imx_pcie_of_to_plat	96	static
+drivers/pci/pcie_imx.c:616:12:imx_pcie_addr_valid	0	static
+drivers/pci/pcie_imx.c:1427:12:imx_pcie_dm_write_config	64	static
+drivers/pci/pcie_imx.c:353:12:pcie_phy_write.constprop.isra	32	static
+drivers/pci/pcie_imx.c:323:12:pcie_phy_read.isra	32	static
+drivers/pci/pcie_imx.c:1411:12:imx_pcie_dm_read_config	48	static
+drivers/pci/pcie_imx.c:407:6:imx_pcie_gpr_read	0	static
+drivers/pci/pcie_imx.c:412:6:imx_pcie_gpr_update_bits	0	static
+drivers/pci/pcie_imx.c:1246:12:imx_pcie_assert_core_reset.isra	32	static
+drivers/pci/pcie_imx.c:1594:12:imx_pcie_dm_remove	16	static
+drivers/pci/pcie_imx.c:712:12:imx_pcie_toggle_reset	32	static
+drivers/pci/pcie_imx.c:1443:12:imx_pcie_dm_probe	144	static
