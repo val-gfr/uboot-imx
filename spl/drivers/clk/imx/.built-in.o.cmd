@@ -1,0 +1,1 @@
+cmd_spl/drivers/clk/imx/built-in.o :=  rm -f spl/drivers/clk/imx/built-in.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/clk/imx/built-in.o spl/drivers/clk/imx/clk-imx8.o spl/drivers/clk/imx/clk-imx8qxp.o

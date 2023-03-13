@@ -1,0 +1,12 @@
+parsing container.cfg
+New Container: 	0
+CONTAINER Sector size:	00000400
+CONTAINER FUSE VERSION:	0x00
+CONTAINER SW VERSION:	0x0000
+Platform:	i.MX8QXP B0
+container image offset (aligned):2000
+container flags: 0x10
+AP file_offset = 0x2000 size = 0x8400
+AP file_offset = 0xa400 size = 0xdec00
+CST: CONTAINER 0 offset: 0x0
+CST: CONTAINER 0: Signature Block: offset is at 0x110

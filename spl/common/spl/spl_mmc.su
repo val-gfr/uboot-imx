@@ -1,0 +1,9 @@
+common/spl/spl_mmc.c:62:7:h_spl_load_read	48	static
+common/spl/spl_mmc.c:85:12:mmc_image_load_late	0	static
+common/spl/spl_mmc.c:280:5:spl_start_uboot	0	static
+common/spl/spl_mmc.c:341:12:spl_mmc_boot_mode	0	static
+common/spl/spl_mmc.c:359:22:spl_mmc_get_uboot_raw_sector	0	static
+common/spl/spl_mmc.c:365:5:default_spl_mmc_emmc_boot_partition	0	static
+common/spl/spl_mmc.c:391:12:spl_mmc_emmc_boot_partition	0	static
+common/spl/spl_mmc.c:396:5:spl_mmc_load	112	static
+common/spl/spl_mmc.c:489:5:spl_mmc_load_image	0	static

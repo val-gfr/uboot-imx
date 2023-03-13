@@ -1,0 +1,8 @@
+net/bootp.c:464:12:dhcp_extended	64	static
+net/bootp.c:840:13:dhcp_process_options	80	static
+net/bootp.c:933:13:dhcp_packet_process_options	64	static
+net/bootp.c:1051:13:dhcp_handler	96	static
+net/bootp.c:715:6:bootp_reset	16	static
+net/bootp.c:723:6:bootp_request	96	static
+net/bootp.c:403:13:bootp_timeout_handler	16	static
+net/bootp.c:1134:6:dhcp_request	0	static

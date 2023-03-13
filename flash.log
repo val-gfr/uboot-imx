@@ -1,0 +1,12 @@
+parsing spl/u-boot-spl.cfgout
+New Container: 	0
+CONTAINER Sector size:	00000400
+CONTAINER FUSE VERSION:	0x00
+CONTAINER SW VERSION:	0x0000
+Platform:	i.MX8QXP B0
+container image offset (aligned):11800
+container flags: 0x10
+SCFW file_offset = 0x11800 size = 0x28000
+AP file_offset = 0x39800 size = 0x20c00
+CST: CONTAINER 0 offset: 0x400
+CST: CONTAINER 0: Signature Block: offset is at 0x590

@@ -1,0 +1,1 @@
+arch/arm/mach-imx/parse-container.c:159:5:spl_load_imx_container	80	static

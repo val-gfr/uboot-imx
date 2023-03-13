@@ -1,0 +1,4 @@
+net/sntp.c:50:13:sntp_timeout_handler	16	static
+net/sntp.c:57:13:sntp_handler	64	static
+net/sntp.c:103:5:sntp_prereq	16	static
+net/sntp.c:113:5:sntp_start	80	static

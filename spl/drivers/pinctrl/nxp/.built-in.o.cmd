@@ -1,0 +1,1 @@
+cmd_spl/drivers/pinctrl/nxp/built-in.o :=  rm -f spl/drivers/pinctrl/nxp/built-in.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/pinctrl/nxp/built-in.o spl/drivers/pinctrl/nxp/pinctrl-imx.o spl/drivers/pinctrl/nxp/pinctrl-scu.o spl/drivers/pinctrl/nxp/pinctrl-imx8.o

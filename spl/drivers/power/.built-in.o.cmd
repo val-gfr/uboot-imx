@@ -1,0 +1,1 @@
+cmd_spl/drivers/power/built-in.o :=  rm -f spl/drivers/power/built-in.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/power/built-in.o spl/drivers/power/battery/built-in.o spl/drivers/power/domain/built-in.o spl/drivers/power/fuel_gauge/built-in.o spl/drivers/power/mfd/built-in.o spl/drivers/power/pmic/built-in.o spl/drivers/power/regulator/built-in.o

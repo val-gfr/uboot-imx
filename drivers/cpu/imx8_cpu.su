@@ -1,0 +1,8 @@
+drivers/cpu/imx8_cpu.c:173:12:cpu_imx_is_current	16	static
+drivers/cpu/imx8_cpu.c:136:12:cpu_imx_get_info	32	static
+drivers/cpu/imx8_cpu.c:167:12:cpu_imx_get_vendor	16	static
+drivers/cpu/imx8_cpu.c:145:12:cpu_imx_get_count	48	static
+drivers/cpu/imx8_cpu.c:110:5:cpu_imx_get_desc	64	static
+drivers/cpu/imx8_cpu.c:30:13:get_imx8_type	0	static
+drivers/cpu/imx8_cpu.c:45:13:get_imx8_rev	0	static
+drivers/cpu/imx8_cpu.c:214:12:imx8_cpu_probe	64	static

@@ -1,0 +1,1 @@
+arch/arm/cpu/armv8/spl_data.c:14:6:spl_save_restore_data	32	static

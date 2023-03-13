@@ -1,0 +1,4 @@
+cmd/cpu.c:93:12:do_cpu	48	static
+cmd/cpu.c:21:12:print_cpu_list	224	static
+cmd/cpu.c:76:12:do_cpu_detail	16	static
+cmd/cpu.c:67:12:do_cpu_list	16	static

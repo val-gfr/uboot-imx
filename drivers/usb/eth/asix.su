@@ -1,0 +1,15 @@
+drivers/usb/eth/asix.c:752:6:asix_eth_stop	0	static
+drivers/usb/eth/asix.c:469:12:asix_send_common	1664	static
+drivers/usb/eth/asix.c:757:5:asix_eth_send	32	static
+drivers/usb/eth/asix.c:764:5:asix_eth_recv	64	static
+drivers/usb/eth/asix.c:815:12:asix_free_pkt	32	static
+drivers/usb/eth/asix.c:139:12:asix_read_cmd.isra	48	static
+drivers/usb/eth/asix.c:256:12:asix_read_rx_ctl.isra	144	static
+drivers/usb/eth/asix.c:117:12:asix_write_cmd.isra	48	static
+drivers/usb/eth/asix.c:210:12:asix_sw_reset.isra	32	static
+drivers/usb/eth/asix.c:180:12:asix_mdio_read	176	static
+drivers/usb/eth/asix.c:195:1:asix_mdio_write	176	static
+drivers/usb/eth/asix.c:837:12:asix_eth_probe	192	static
+drivers/usb/eth/asix.c:298:12:asix_write_hwaddr_common	160	static
+drivers/usb/eth/asix.c:826:5:asix_write_hwaddr	32	static
+drivers/usb/eth/asix.c:744:12:asix_eth_start	48	static

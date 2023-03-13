@@ -1,0 +1,1 @@
+cmd_spl/drivers/crypto/built-in.o :=  rm -f spl/drivers/crypto/built-in.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/crypto/built-in.o spl/drivers/crypto/rsa_mod_exp/built-in.o spl/drivers/crypto/fsl/built-in.o spl/drivers/crypto/hash/built-in.o spl/drivers/crypto/aspeed/built-in.o
