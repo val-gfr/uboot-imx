@@ -1,7 +1,0 @@
-drivers/crypto/fsl/fsl_hash.c:48:29:get_hash_type.isra	16	static
-drivers/crypto/fsl/fsl_hash.c:182:5:caam_hash	64	static
-drivers/crypto/fsl/fsl_hash.c:218:6:hw_sha256	16	static
-drivers/crypto/fsl/fsl_hash.c:225:6:hw_sha1	16	static
-drivers/crypto/fsl/fsl_hash.c:232:5:hw_sha_init	32	static
-drivers/crypto/fsl/fsl_hash.c:237:5:hw_sha_update	48	static
-drivers/crypto/fsl/fsl_hash.c:243:5:hw_sha_finish	80	static

@@ -1,1 +1,0 @@
-cmd_drivers/video/nxp/imx/built-in.o :=  rm -f drivers/video/nxp/imx/built-in.o; aarch64-linux-gnu-ar cDPrsT drivers/video/nxp/imx/built-in.o drivers/video/nxp/imx/imxdpuv1.o drivers/video/nxp/imx/imx8_dc.o drivers/video/nxp/imx/imx8_lvds.o drivers/video/nxp/imx/hdmi/built-in.o

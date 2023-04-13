@@ -1,3 +1,0 @@
-drivers/i2c/muxes/imx_virt_i2c_mux.c:22:12:imx_virt_i2c_mux_deselect	0	static
-drivers/i2c/muxes/imx_virt_i2c_mux.c:28:12:imx_virt_i2c_mux_select	32	static
-drivers/i2c/muxes/imx_virt_i2c_mux.c:49:12:imx_virt_i2c_mux_probe	32	static

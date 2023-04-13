@@ -1,1 +1,0 @@
-cmd_board/freescale/imx8qxp_mek/built-in.o :=  rm -f board/freescale/imx8qxp_mek/built-in.o; aarch64-linux-gnu-ar cDPrsT board/freescale/imx8qxp_mek/built-in.o board/freescale/imx8qxp_mek/imx8qxp_mek.o

@@ -1,5 +1,0 @@
-drivers/power/domain/imx8-power-domain.c:22:12:imx8_power_domain_free	16	static
-drivers/power/domain/imx8-power-domain.c:15:12:imx8_power_domain_request	16	static
-drivers/power/domain/imx8-power-domain.c:63:12:imx8_power_domain_probe	16	static
-drivers/power/domain/imx8-power-domain.c:46:12:imx8_power_domain_off	32	static
-drivers/power/domain/imx8-power-domain.c:29:12:imx8_power_domain_on	32	static

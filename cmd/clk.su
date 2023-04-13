@@ -1,5 +1,0 @@
-cmd/clk.c:17:13:show_clks	80	static
-cmd/clk.c:140:12:do_clk	48	static
-cmd/clk.c:102:12:do_clk_setfreq	64	static
-cmd/clk.c:61:12:soc_clk_dump	48	static
-cmd/clk.c:87:12:do_clk_dump	16	static

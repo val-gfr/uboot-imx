@@ -1,9 +1,0 @@
-drivers/crypto/fsl/jobdesc.c:179:6:inline_cnstr_jobdesc_hash	0	static
-drivers/crypto/fsl/jobdesc.c:211:6:inline_cnstr_jobdesc_blob_encap	0	static
-drivers/crypto/fsl/jobdesc.c:243:6:inline_cnstr_jobdesc_blob_decap	0	static
-drivers/crypto/fsl/jobdesc.c:277:6:inline_cnstr_jobdesc_rng_instantiation	0	static
-drivers/crypto/fsl/jobdesc.c:307:6:inline_cnstr_jobdesc_rng_deinstantiation	0	static
-drivers/crypto/fsl/jobdesc.c:315:6:inline_cnstr_jobdesc_rng	0	static
-drivers/crypto/fsl/jobdesc.c:326:6:inline_cnstr_jobdesc_pkha_rsaexp	0	static
-drivers/crypto/fsl/jobdesc.c:352:6:inline_cnstr_jobdesc_derive_bkek	0	static
-drivers/crypto/fsl/jobdesc.c:365:6:inline_cnstr_jobdesc_aes_ecb_decrypt	0	static

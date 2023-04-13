@@ -1,2 +1,0 @@
-drivers/usb/host/xhci-imx8.c:190:12:xhci_imx8_remove	48	static
-drivers/usb/host/xhci-imx8.c:132:12:xhci_imx8_probe	240	static

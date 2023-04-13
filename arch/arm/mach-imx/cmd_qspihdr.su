@@ -1,4 +1,0 @@
-arch/arm/mach-imx/cmd_qspihdr.c:232:12:do_qspihdr_check	48	static
-arch/arm/mach-imx/cmd_qspihdr.c:288:13:hdr_dump	96	static
-arch/arm/mach-imx/cmd_qspihdr.c:213:12:qspi_erase_update.constprop	80	static
-arch/arm/mach-imx/cmd_qspihdr.c:551:12:do_qspihdr	112	static

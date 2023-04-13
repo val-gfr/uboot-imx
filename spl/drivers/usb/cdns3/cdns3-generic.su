@@ -1,4 +1,0 @@
-drivers/usb/cdns3/cdns3-generic.c:39:12:cdns3_generic_handle_interrupts	16	static
-drivers/usb/cdns3/cdns3-generic.c:87:12:cdns3_generic_peripheral_ofdata_to_platdata	32	static
-drivers/usb/cdns3/cdns3-generic.c:72:12:cdns3_generic_peripheral_remove	32	static
-drivers/usb/cdns3/cdns3-generic.c:49:12:cdns3_generic_peripheral_probe	48	static

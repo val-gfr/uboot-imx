@@ -1,5 +1,0 @@
-drivers/video/it6263_bridge.c:170:12:it6263_attach	0	static
-drivers/video/it6263_bridge.c:44:12:it6263_i2c_reg_read	48	static
-drivers/video/it6263_bridge.c:184:12:it6263_probe	32	static
-drivers/video/it6263_bridge.c:19:12:it6263_i2c_reg_write.constprop.isra	32	static
-drivers/video/it6263_bridge.c:175:12:it6263_set_backlight	48	static

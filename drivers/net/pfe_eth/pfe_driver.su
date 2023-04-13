@@ -1,7 +1,0 @@
-drivers/net/pfe_eth/pfe_driver.c:30:5:pfe_recv	0	static
-drivers/net/pfe_eth/pfe_driver.c:79:5:pfe_eth_free_pkt	0	static
-drivers/net/pfe_eth/pfe_driver.c:127:5:pfe_send	96	static
-drivers/net/pfe_eth/pfe_driver.c:196:5:pfe_tx_done	0	static
-drivers/net/pfe_eth/pfe_driver.c:258:6:hif_rx_desc_disable	0	static
-drivers/net/pfe_eth/pfe_driver.c:605:5:pfe_drv_init	128	static
-drivers/net/pfe_eth/pfe_driver.c:634:5:pfe_eth_remove	16	static

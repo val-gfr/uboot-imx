@@ -1,1 +1,0 @@
-cmd_spl/drivers/mmc/built-in.o :=  rm -f spl/drivers/mmc/built-in.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/mmc/built-in.o spl/drivers/mmc/mmc.o spl/drivers/mmc/mmc-uclass.o spl/drivers/mmc/mmc_boot.o spl/drivers/mmc/fsl_esdhc_imx.o

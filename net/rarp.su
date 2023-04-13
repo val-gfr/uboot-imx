@@ -1,3 +1,0 @@
-net/rarp.c:28:6:rarp_receive	32	static
-net/rarp.c:70:6:rarp_request	48	static
-net/rarp.c:58:13:rarp_timeout_handler	16	static

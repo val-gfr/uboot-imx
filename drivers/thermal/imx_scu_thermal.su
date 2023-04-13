@@ -1,5 +1,0 @@
-drivers/thermal/imx_scu_thermal.c:85:12:imx_sc_thermal_probe	0	static
-drivers/thermal/imx_scu_thermal.c:29:12:read_temperature	64	static
-drivers/thermal/imx_scu_thermal.c:54:5:imx_sc_thermal_get_temp	96	static
-drivers/thermal/imx_scu_thermal.c:130:12:imx_sc_thermal_of_to_plat	144	static
-drivers/thermal/imx_scu_thermal.c:91:12:imx_sc_thermal_bind	48	static

@@ -1,4 +1,0 @@
-drivers/misc/imx8/fuse.c:40:5:fuse_sense	80	static
-drivers/misc/imx8/fuse.c:35:5:fuse_read	0	static
-drivers/misc/imx8/fuse.c:56:5:fuse_prog	80	static
-drivers/misc/imx8/fuse.c:96:5:fuse_override	16	static

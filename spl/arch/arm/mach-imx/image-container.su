@@ -1,5 +1,0 @@
-arch/arm/mach-imx/image-container.c:163:13:check_secondary_cnt_set.constprop	48	static
-arch/arm/mach-imx/image-container.c:43:5:get_container_size	0	static
-arch/arm/mach-imx/image-container.c:85:12:get_dev_container_size.constprop	48	static
-arch/arm/mach-imx/image-container.c:298:15:spl_mmc_get_uboot_raw_sector	80	static
-arch/arm/mach-imx/image-container.c:311:5:spl_mmc_emmc_boot_partition	48	static

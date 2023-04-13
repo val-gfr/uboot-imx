@@ -1,2 +1,0 @@
-drivers/usb/cdns3/core.c:175:5:cdns3_init	64	static
-drivers/usb/cdns3/core.c:200:6:cdns3_exit	32	static

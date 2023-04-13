@@ -1,9 +1,0 @@
-drivers/video/nxp/imx/imx8_lvds.c:198:5:imx8_ldb_read_timing	32	static
-drivers/video/nxp/imx/imx8_lvds.c:241:12:imx8_ldb_probe	48	static
-drivers/video/nxp/imx/imx8_lvds.c:293:12:imx8_ldb_bind	32	static
-./arch/arm/include/asm/arch/imx8_mipi_dsi.h:237:13:dsi_host_ctrl_csr_setup	0	static
-./arch/arm/include/asm/arch/imx8_mipi_dsi.h:275:13:dsi_host_ctrl_dpi_setup	0	static
-./arch/arm/include/asm/arch/imx8_mipi_dsi.h:326:13:dsi_host_ctrl_pkt_setup	0	static
-./arch/arm/include/asm/arch/imx8_mipi_dsi.h:342:13:dsi_host_ctrl_dphy_setup	64	static
-drivers/video/nxp/imx/imx8_lvds.c:156:6:imx8_ldb_configure	32	static
-drivers/video/nxp/imx/imx8_lvds.c:213:5:imx8_ldb_enable	96	static

@@ -1,1 +1,0 @@
-cmd_drivers/video/nxp/built-in.o :=  rm -f drivers/video/nxp/built-in.o; aarch64-linux-gnu-ar cDPrsT drivers/video/nxp/built-in.o drivers/video/nxp/imx/built-in.o drivers/video/nxp/layerscape/built-in.o

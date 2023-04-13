@@ -1,1 +1,0 @@
-cmd_boot/built-in.o :=  rm -f boot/built-in.o; aarch64-linux-gnu-ar cDPrsT boot/built-in.o boot/bootm.o boot/bootm_os.o boot/image.o boot/image-board.o boot/image-android.o boot/image-android-dt.o boot/image-fdt.o

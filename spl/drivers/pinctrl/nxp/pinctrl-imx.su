@@ -1,3 +1,0 @@
-drivers/pinctrl/nxp/pinctrl-imx.c:22:12:imx_pinctrl_set_state	96	static
-drivers/pinctrl/nxp/pinctrl-imx.c:202:5:imx_pinctrl_probe	128	static
-drivers/pinctrl/nxp/pinctrl-imx.c:260:5:imx_pinctrl_remove	16	static

@@ -1,6 +1,0 @@
-net/pcap.c:49:5:pcap_init	32	static
-net/pcap.c:71:5:pcap_start_stop	16	static
-net/pcap.c:83:5:pcap_clear	16	static
-net/pcap.c:99:5:pcap_post	80	static
-net/pcap.c:136:5:pcap_print_status	16	static
-net/pcap.c:153:6:pcap_active	0	static

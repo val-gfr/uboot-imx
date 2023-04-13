@@ -1,1 +1,0 @@
-cmd_drivers/misc/imx8/built-in.o :=  rm -f drivers/misc/imx8/built-in.o; aarch64-linux-gnu-ar cDPrsT drivers/misc/imx8/built-in.o drivers/misc/imx8/scu_api.o drivers/misc/imx8/scu.o drivers/misc/imx8/fuse.o

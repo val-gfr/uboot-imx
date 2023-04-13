@@ -1,5 +1,0 @@
-drivers/i2c/muxes/pca954x.c:79:12:pca954x_deselect	48	static
-drivers/i2c/muxes/pca954x.c:88:12:pca954x_select	64	static
-drivers/i2c/muxes/pca954x.c:119:12:pca954x_of_to_plat	48	static
-drivers/i2c/muxes/pca954x.c:163:12:pca954x_remove	32	static
-drivers/i2c/muxes/pca954x.c:142:12:pca954x_probe	48	static

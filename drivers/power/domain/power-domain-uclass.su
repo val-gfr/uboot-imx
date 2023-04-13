@@ -1,9 +1,0 @@
-drivers/power/domain/power-domain-uclass.c:37:5:power_domain_lookup_name	64	static
-drivers/power/domain/power-domain-uclass.c:80:5:power_domain_get_by_index	128	static
-drivers/power/domain/power-domain-uclass.c:127:5:power_domain_get	0	static
-drivers/power/domain/power-domain-uclass.c:132:5:power_domain_free	0	static
-drivers/power/domain/power-domain-uclass.c:141:5:power_domain_on	0	static
-drivers/power/domain/power-domain-uclass.c:150:5:power_domain_off	0	static
-drivers/power/domain/power-domain-uclass.c:160:12:dev_power_domain_ctrl	96	static
-drivers/power/domain/power-domain-uclass.c:199:5:dev_power_domain_on	0	static
-drivers/power/domain/power-domain-uclass.c:204:5:dev_power_domain_off	0	static

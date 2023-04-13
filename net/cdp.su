@@ -1,5 +1,0 @@
-net/cdp.c:45:15:cdp_compute_csum	0	static
-net/cdp.c:103:12:cdp_send_trigger.isra	32	static
-net/cdp.c:219:13:cdp_timeout_handler	16	static
-net/cdp.c:236:6:cdp_receive	32	static
-net/cdp.c:348:6:cdp_start	16	static

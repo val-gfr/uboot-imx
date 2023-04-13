@@ -1,4 +1,0 @@
-drivers/crypto/fsl/fsl_blob.c:33:5:blob_decap	64	static
-drivers/crypto/fsl/fsl_blob.c:108:5:blob_encap	64	static
-drivers/crypto/fsl/fsl_blob.c:165:5:derive_blob_kek	48	static
-drivers/crypto/fsl/fsl_blob.c:209:5:hwrng_generate	48	static

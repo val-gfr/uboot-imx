@@ -1,1 +1,0 @@
-cmd_arch/arm/mach-imx/built-in.o :=  rm -f arch/arm/mach-imx/built-in.o; aarch64-linux-gnu-ar cDPrsT arch/arm/mach-imx/built-in.o arch/arm/mach-imx/misc.o arch/arm/mach-imx/dt_optee.o arch/arm/mach-imx/imx_bootaux.o arch/arm/mach-imx/cmd_qspihdr.o arch/arm/mach-imx/imx_vservice.o arch/arm/mach-imx/lowlevel.o arch/arm/mach-imx/imx8/built-in.o

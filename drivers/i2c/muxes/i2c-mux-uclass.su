@@ -1,8 +1,0 @@
-drivers/i2c/muxes/i2c-mux-uclass.c:39:12:i2c_mux_child_post_bind	32	static
-drivers/i2c/muxes/i2c-mux-uclass.c:102:12:i2c_mux_post_probe	32	static
-drivers/i2c/muxes/i2c-mux-uclass.c:53:12:i2c_mux_post_bind	96	static
-drivers/i2c/muxes/i2c-mux-uclass.c:129:5:i2c_mux_select	32	static
-drivers/i2c/muxes/i2c-mux-uclass.c:141:5:i2c_mux_deselect	32	static
-drivers/i2c/muxes/i2c-mux-uclass.c:153:12:i2c_mux_bus_set_bus_speed	48	static
-drivers/i2c/muxes/i2c-mux-uclass.c:168:12:i2c_mux_bus_probe	64	static
-drivers/i2c/muxes/i2c-mux-uclass.c:188:12:i2c_mux_bus_xfer	64	static

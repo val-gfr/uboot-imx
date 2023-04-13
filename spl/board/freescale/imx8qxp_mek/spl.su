@@ -1,3 +1,0 @@
-board/freescale/imx8qxp_mek/spl.c:39:6:spl_board_init	32	static
-board/freescale/imx8qxp_mek/spl.c:66:6:spl_board_prepare_for_boot	0	static
-board/freescale/imx8qxp_mek/spl.c:81:6:board_init_f	16	static

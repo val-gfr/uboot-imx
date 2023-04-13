@@ -1,7 +1,0 @@
-cmd/pcap.c:65:1:complete_pcap	0	static
-cmd/pcap.c:45:12:do_pcap_clear	16	static
-cmd/pcap.c:39:12:do_pcap_status	16	static
-cmd/pcap.c:33:12:do_pcap_stop	16	static
-cmd/pcap.c:27:12:do_pcap_start	16	static
-cmd/pcap.c:65:1:do_pcap	48	static
-cmd/pcap.c:12:12:do_pcap_init	32	static

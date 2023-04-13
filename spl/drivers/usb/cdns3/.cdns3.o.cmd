@@ -1,1 +1,0 @@
-cmd_spl/drivers/usb/cdns3/cdns3.o := rm -f spl/drivers/usb/cdns3/cdns3.o; aarch64-linux-gnu-ar cDPrsT spl/drivers/usb/cdns3/cdns3.o spl/drivers/usb/cdns3/core.o spl/drivers/usb/cdns3/gadget.o spl/drivers/usb/cdns3/cdns3-generic.o
